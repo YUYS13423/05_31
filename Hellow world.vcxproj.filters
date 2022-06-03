@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="5_31main1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main2.cpp">
@@ -27,11 +27,20 @@
     <ClCompile Include="main4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6_2main5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="헤더.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="employeestruct.h">
       <Filter>소스 파일</Filter>
     </ClInclude>

@@ -1,3 +1,4 @@
+/*
 #include<iostream>;
 #include"employeestruct.h"
 using namespace std;
@@ -41,3 +42,4 @@ int main() {
 	E.l = 321;
 	cout << E.i<<"\n" << E.j << "\n" << E.k << "\n" << E.l << endl;
 }
+*/
