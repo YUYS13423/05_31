@@ -7,7 +7,6 @@ const double PI = 3.14159265358979;
 struct C2dType// Circle 2D Type
 {
 	double x, y;
-
 };
 
 struct CircleType
@@ -18,10 +17,6 @@ struct CircleType
 
 class CircleClass //설계도
 {
-public://모든 곳에서 접근할수 있음
-private://다른 곳에서 접근할수 없음
-protected://자식까지는 접근할수 있음
-
 public:
 //-->
 	CircleClass();//생성자
@@ -51,4 +46,7 @@ public:
 
 
 //<--public 영역
+public://모든 곳에서 접근할수 있음
+private://다른 곳에서 접근할수 없음
+protected://자식까지는 접근할수 있음
 };
