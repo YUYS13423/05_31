@@ -6,8 +6,21 @@ CircleClass::CircleClass() : c({ 0 })//-->0으로 초기화
 //안에 아무값이 없어서 처리할 값 없음
 }
 
+CircleClass::CircleClass(double x, double y, double radius)
+{
+	initialize(x, y, radius);
+}
+
 CircleClass::~CircleClass()
 {
+
+}
+
+void CircleClass::initialize(double x, double y, double radius)
+{
+	c.center.x = x;
+	c.center.y = y;
+	c.radius = radius;
 
 }
 

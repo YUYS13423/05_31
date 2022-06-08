@@ -25,8 +25,10 @@ protected://자식까지는 접근할수 있음
 public:
 //-->
 	CircleClass();//생성자
+	CircleClass(double x, double y, double radius);
 	~CircleClass();//파괴자
 
+	void initialize(double x, double y, double radius);
 	double circleArea();
 	double getDistance(CircleType target);
 	bool IsOverLapped(CircleType target);

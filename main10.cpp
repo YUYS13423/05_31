@@ -1,9 +1,10 @@
 #include <iostream>
 
 #include "employeestruct.h"
+#include "CircleClass.h"
 
 using namespace std;
-
+/*
 const double PI = 3.14159265358979;
 
 struct C2dType// Circle 2D Type
@@ -54,9 +55,10 @@ int Lappednum(CircleType c1, CircleType c2)
 		return 0;
 	}
 }
-
+*/
 int main() 
 {
+	/*
 	CircleType c1, c2;
 	c1.center.x = 10;
 	c1.center.y = 0;
@@ -75,6 +77,11 @@ int main()
 	}
 
 	//Employee aaa;//°´Ã¼ÁöÇâ 
+	*/
 
+	CircleClass cc1 = { 10, 10, 10 };
+	CircleClass cc2 = { 30, 30, 10 };
+	bool blsOverlapped = cc1.IsOverLapped(cc2.c);
+	cout << "isOverlapped = " << boolalpha << blsOverlapped << noboolalpha << endl;
 
 }
